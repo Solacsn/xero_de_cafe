@@ -1,2 +1,2 @@
-# X-ro-de-Caf-
+# Xero-de-Cafe
 Projeto de site para uma cafeteria
