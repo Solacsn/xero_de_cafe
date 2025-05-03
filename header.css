@@ -1,0 +1,47 @@
+header {
+  background-color: #653213;
+  font-family: "Squada One", serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 82px;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+header .logo {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+}
+
+header .title {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+header .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #de5907;
+}

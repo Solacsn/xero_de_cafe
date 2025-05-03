@@ -1,0 +1,27 @@
+@import "./header.css";
+@import "./footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/index-coffee.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 54px 72px;
+}
+
+p {
+  color: white;
+  font-family: "Padauk", serif;
+  font-size: 48px;
+  width: 30vw;
+  line-height: 1;
+}

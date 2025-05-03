@@ -1,0 +1,57 @@
+@import "./header.css";
+@import "./footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #653213;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 77vh;
+}
+
+main .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+  font-family: "Padauk", serif;
+  color: beige;
+  row-gap: 10px;
+  font-size: 18px;
+  width: 50vw;
+}
+
+h1 {
+  font-family: "Squada One", serif;
+  font-weight: 5;
+  color: #ffff;
+  padding: 0px 82px;
+}
+
+p {
+  line-height: 1.2;
+  font-size: 18px;
+  padding: 0px 82px;
+}
+
+.img-about {
+  display: flex;
+  justify-content: center;
+  border: white solid 10px;
+  max-height: 80vh;
+  width: 40vw;
+  contain: inline-size;
+  overflow: hidden;
+}
+
+.img-about img {
+  width: 100vh;
+  height: fit-content;
+  contain: inherit;
+}

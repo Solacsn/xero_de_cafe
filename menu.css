@@ -1,0 +1,75 @@
+@import "./header.css";
+@import "./footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: #653213;
+  max-height: 77vh;
+}
+
+.menu-img {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  contain: content;
+  border: white solid 10px;
+  height: 74.4vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  contain: content;
+  font-size: 14px;
+  line-height: 1.2;
+  width: 60vw;
+  padding-left: 82px;
+  max-height: 76vh;
+  text-align: justify;
+}
+
+.food-menu {
+  padding: 0px 82px;
+  justify-content: flex-start;
+  width: 60vw;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+h1 {
+  color: white;
+  font-family: "Squada One", serif;
+  font-weight: 400;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #c5a976;
+  font-family: "Squada One", serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: white;
+  font-family: "Squada One", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p {
+  color: #c5a976;
+  font-family: "Padauk", serif;
+}

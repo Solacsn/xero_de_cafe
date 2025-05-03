@@ -1,0 +1,13 @@
+footer {
+  background-color: #222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 82px;
+  height: 5vh;
+  align-items: baseline;
+}
+
+footer img {
+  width: 30px;
+}
